@@ -1,4 +1,4 @@
-package com.art.absence
+package com.art.absencecalendar.absence
 
 import java.time.LocalDate
 

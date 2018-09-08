@@ -1,4 +1,4 @@
-package com.art.user
+package com.art.absencecalendar.absence.user
 
 class UserDao(){
     val users = hashMapOf(

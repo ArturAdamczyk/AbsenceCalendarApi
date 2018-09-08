@@ -1,4 +1,4 @@
-package com.art.employee
+package com.art.absencecalendar.absence.employee
 
 class EmployeeTestData {
     companion object{

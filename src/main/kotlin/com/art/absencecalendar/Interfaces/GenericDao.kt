@@ -1,4 +1,4 @@
-package com.art.Interfaces
+package com.art.absencecalendar.absence.Interfaces
 
 interface GenericDao<T> {
     fun save(o: T): Boolean

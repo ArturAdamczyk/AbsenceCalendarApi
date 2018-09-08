@@ -1,4 +1,4 @@
-package com.art.department
+package com.art.absencecalendar.absence.department
 
 class DepartmentDao {
     val departments = hashMapOf(

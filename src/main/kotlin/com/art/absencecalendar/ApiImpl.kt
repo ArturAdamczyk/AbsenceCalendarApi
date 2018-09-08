@@ -1,12 +1,12 @@
 package com.art
 
-import com.art.absence.type.AbsenceType
-import com.art.Interfaces.Api
-import com.art.department.Department
-import com.art.employee.Employee
-import com.art.gender.Gender
-import com.art.employee.EmployeeDao
-import com.art.employee.position.EmployeePosition
+import com.art.absencecalendar.absence.type.AbsenceType
+import com.art.absencecalendar.absence.Interfaces.Api
+import com.art.absencecalendar.absence.department.Department
+import com.art.absencecalendar.absence.employee.Employee
+import com.art.absencecalendar.absence.gender.Gender
+import com.art.absencecalendar.absence.employee.EmployeeDao
+import com.art.absencecalendar.absence.employee.position.EmployeePosition
 
 class ApiImpl(
         private val employeeDao: EmployeeDao

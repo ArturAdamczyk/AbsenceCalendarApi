@@ -1,4 +1,4 @@
-package com.art
+package com.art.absencecalendar
 
 import org.junit.Test
 import kotlin.test.assertEquals

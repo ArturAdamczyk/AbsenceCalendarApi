@@ -1,4 +1,4 @@
-package com.art.employee.position
+package com.art.absencecalendar.absence.employee.position
 
 class EmployeePosition(
         var name: String,

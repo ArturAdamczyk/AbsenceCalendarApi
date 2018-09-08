@@ -1,6 +1,6 @@
-package com.art.employee
+package com.art.absencecalendar.absence.employee
 
-import com.art.absence.Absence
+import com.art.absencecalendar.absence.Absence
 
 data class Employee(
         var id: Int,

@@ -1,10 +1,10 @@
-package com.art.Interfaces
+package com.art.absencecalendar.absence.Interfaces
 
-import com.art.absence.type.AbsenceType
-import com.art.department.Department
-import com.art.employee.Employee
-import com.art.employee.position.EmployeePosition
-import com.art.gender.Gender
+import com.art.absencecalendar.absence.type.AbsenceType
+import com.art.absencecalendar.absence.department.Department
+import com.art.absencecalendar.absence.employee.Employee
+import com.art.absencecalendar.absence.employee.position.EmployeePosition
+import com.art.absencecalendar.absence.gender.Gender
 
 interface Api {
     fun getAbsentEmployees(date: String): List<Employee>

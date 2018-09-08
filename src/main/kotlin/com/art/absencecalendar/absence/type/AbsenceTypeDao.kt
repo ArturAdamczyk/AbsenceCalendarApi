@@ -1,4 +1,4 @@
-package com.art.absence.type
+package com.art.absencecalendar.absence.type
 
 class AbsenceTypeDao {
     val absenceTypes = hashMapOf(
