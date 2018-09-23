@@ -1,4 +1,4 @@
-package com.art.absencecalendar.absence.employee.position
+package com.art.absencecalendar.employee.position
 
 class EmployeePositionDao {
     val employeePositions = hashMapOf(

@@ -19,8 +19,10 @@ class AbsenceDaoImpl: AbsenceDao {
         return true
     }
 
-    override fun findById(id: Int): Absence? {
-        return absences[id]
+    override fun findById(id: Int): Absence {
+        absences[id]?.let{
+            return it
+        }?: throw Exception()
     }
 
     override fun update(id: Int, absence: Absence) {
