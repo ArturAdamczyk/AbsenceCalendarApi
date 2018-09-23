@@ -1,6 +1,6 @@
-package com.art.absencecalendar.absence.employee
+package com.art.absencecalendar.employee
 
-import com.art.absencecalendar.absence.Interfaces.GenericDao
+import com.art.absencecalendar.interfaces.GenericDao
 
 interface EmployeeDao : GenericDao<Employee> {
     fun getAbsentEmployees(date: String): List<Employee>

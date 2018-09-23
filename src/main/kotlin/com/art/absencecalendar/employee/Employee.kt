@@ -1,4 +1,4 @@
-package com.art.absencecalendar.absence.employee
+package com.art.absencecalendar.employee
 
 import com.art.absencecalendar.absence.Absence
 

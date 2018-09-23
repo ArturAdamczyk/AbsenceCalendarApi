@@ -1,4 +1,4 @@
-package com.art.absencecalendar.absence.gender
+package com.art.absencecalendar.gender
 
 class GenderDao {
 

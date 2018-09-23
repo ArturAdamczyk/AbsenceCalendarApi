@@ -1,4 +1,4 @@
-package com.art.absencecalendar.absence.employee
+package com.art.absencecalendar.employee
 
 import java.util.concurrent.atomic.AtomicInteger
 
@@ -18,8 +18,10 @@ class EmployeeDaoImpl: EmployeeDao {
         return true
     }
 
-    override fun findById(id: Int): Employee? {
-        return employees[id]
+    override fun findById(id: Int): Employee {
+        employees[id]?.let{
+            return it
+        }?: throw Exception()
     }
 
     override fun update(id: Int, employee: Employee) {
